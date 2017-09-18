@@ -1,0 +1,34 @@
+/*STYLING FOR 01 PHP FORM*/
+
+body {
+	font-family: 'Dosis', sans-serif;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#12335e+0,004c75+100 */
+	background-color: #510000;	
+}
+
+h1 {
+	background-color: #ff0000;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+fieldset {
+	background-color: #e58989;
+}
+
+.submit {
+	background-color: #ff0000;
+	padding: 15px 30px;
+	width: 100%;
+	border: 1px black solid;
+}
+
+.submit:hover {
+		background-color: #e58989;
+		cursor: pointer;
+}

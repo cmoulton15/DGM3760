@@ -1,0 +1,38 @@
+/*STYLING FOR 01 PHP FORM*/
+
+body {
+	font-family: 'Dosis', sans-serif;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffbf+6,efc8a2+99 */
+	background: #ffffbf; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #ffffbf 6%, #efc8a2 99%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffbf 6%,#efc8a2 99%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #ffffbf 6%,#efc8a2 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffbf', endColorstr='#efc8a2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+h1 {
+	background-color: #F48F30;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+fieldset {
+	background-color: #F2BB87;
+}
+
+.submit {
+	background-color: #F48F30;
+	padding: 15px 30px;
+	width: 100%;
+	border: 1px orange solid;
+}
+
+.submit:hover {
+		background-color: #F2BB87;
+		cursor: pointer;
+}

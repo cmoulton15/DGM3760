@@ -1,0 +1,33 @@
+/*STYLING FOR 01 PHP FORM*/
+
+body {
+	font-family: 'Dosis', sans-serif;
+	background-color: #77a386;
+}
+
+h1 {
+	background-color: #68ff9a;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+fieldset {
+	background-color: #b2ffcb;
+}
+
+.submit {
+	background-color: #68ff9a;
+	padding: 15px 30px;
+	width: 100%;
+	border: 1px #b2ffcb solid;
+}
+
+.submit:hover {
+		background-color: #b2ffcb;
+		cursor: pointer;
+}

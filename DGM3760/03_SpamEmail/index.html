@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+
+    <!--STYLING-->
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+
+    <!--GOOGLE FONT-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+</head>
+
+
+<body>
+
+<div class="container">
+    <header>
+        <h1>03 - Spamming Email - INPUT EMAIL</h1>
+    </header>
+
+    <main>
+
+    <form class="phpForm" action="saveToDB.php" method="POST" enctype="multipart/form-data" name="01form">
+
+        <fieldset>
+            <h2>Your Information</h2>
+            <label><p>First Name:</p><input name="firstname" type="text" placeholder="first name" pattern="[a-zA-Z0-9 .]{2,99}" value="Code" required> </label>
+
+            <label><p>Last Name:</p><input name="lastname" type="text" placeholder="last name" pattern="[a-zA-Z0-9 .]{2,99}" value="Mo" required> </label>
+            
+            <label><p>Email:</p><input name="from" type="email" placeholder="email" value="cojamo15@gmail.com" required> </label>
+
+            
+        </fieldset>
+
+        <br>
+        <input class="submit" type="submit" value="Submit">
+
+    </form>
+
+    <h3 style="text-align: center;"><a href="messageForm.html">Go to Message Form</a></h3>
+
+    </main>
+</div>
+
+</body>
+</html>
