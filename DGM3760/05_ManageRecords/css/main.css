@@ -1,0 +1,49 @@
+/*STYLING FOR 01 PHP FORM*/
+
+body {
+	font-family: 'Dosis', sans-serif;
+	background-color: #210038;
+	color: white;
+}
+
+h1 {
+	background-color: #4c007f;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+fieldset {
+	background-color: #6a00b5;
+	border: 1px black solid;
+}
+
+.submit {
+	background-color: #4c007f;
+	padding: 15px 30px;
+	width: 100%;
+	border: 1px black solid;
+	color: white;
+}
+
+.submit:hover {
+		background-color: #6a00b5;
+		cursor: pointer;
+}
+
+a:link {
+	color: red;
+	text-decoration: none;
+}
+
+a:visited {
+	color: orange;
+}
+
+a:hover {
+	color: pink;
+}
