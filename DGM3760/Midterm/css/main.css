@@ -1,0 +1,108 @@
+/*STYLING FOR 01 PHP FORM*/
+
+body {
+	font-family: 'Dosis', sans-serif;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2b0000+0,600000+97 */
+	background-color: black;
+	color: #E5E8F1;
+}
+
+h1 {
+	background-color: #500009;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+img {
+	width: 50%;
+	min-width: 300px;
+}
+
+button {
+	margin: 0px 10px;
+	background-color: #008080;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+.redButton {
+	background-color: red;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	margin-left: 0;
+}
+.addButton {
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	padding: 10px 40px;
+	margin-left: 0;
+}
+button:hover {
+	opacity: .7;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #400000;
+	padding: 30px;
+}
+
+
+fieldset {
+	border: 1px black solid;
+}
+
+.submit {
+	background-color: red;
+	padding: 15px 30px;
+	width: 100%;
+	border: 1px black solid;
+}
+
+.submit:hover {
+		opacity: .7;
+		cursor: pointer;
+		color: white;
+}
+
+a {
+	color: #059B9A;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+input {
+	width: 40%;
+}
+
+textarea {
+	width: 50%;
+}
+
+hr {
+	color: #red;
+}
+
+.fulfill {
+	background-color: green;
+	padding: 10px 30px;
+}
+
+.delete {
+	background-color: red;
+	padding: 10px 30px;
+}
+
+.fiftypercent {
+	width: 40%;
+}	
+.fiftypercent input, .fiftypercent textarea {
+	width: 100%;
+}
