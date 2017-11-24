@@ -1,0 +1,97 @@
+/*STYLING FOR 01 PHP FORM*/
+
+body {
+	font-family: 'Dosis', sans-serif;
+	background-color: #285653;
+	color: white;
+}
+
+h1 {
+	background-color: #71AA9B;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+fieldset {
+	background-color: #71AA9B;
+	border: 1px #53BA83 solid;
+}
+
+.submit {
+	background-color: #88C79C;
+	padding: 15px 30px;
+	width: 100%;
+	border: 1px #53BA83 solid;
+}
+
+.submit:hover {
+		background-color: #71AA9B;
+		cursor: pointer;
+}
+
+a {
+	color: #88C79C;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #88C79C;
+}
+
+a:hover {
+	color: black;
+}
+
+input {
+	width: 40%;
+}
+select {
+	width: 100px;
+	font-size: 10px;
+}
+.radiobuttons {
+	width: initial;
+}
+
+textarea {
+	width: 100%;
+}
+
+hr {
+	color: #0A5069;
+}
+
+.fulfill {
+	background-color: green;
+	padding: 10px 30px;
+}
+
+.delete {
+	background-color: red;
+	padding: 10px 30px;
+}
+
+.instruments {
+	font-size: 10pt;
+	margin-top: -10px;
+	color: #F5F5F5;
+}
+
+.searchList li {
+	border-radius: 10px;
+	border: 1px solid white;
+	width: 170px;
+	text-align: center;
+	background-color: #FFD18A;
+	margin-bottom: 5px;
+	list-style: none;
+}
+.highlights span {
+	color: red;
+	font-weight: bold;
+}
